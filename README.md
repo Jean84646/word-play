@@ -1,4 +1,4 @@
-# Epicodus Week 3 Day 1 Groceries Flavors Project
+# Epicodus Week 3 Day 1 Word Play Project
 
 ## Author
 
@@ -7,7 +7,7 @@ Jean Jia
 
 ## Project Name
 
-Groceries
+Word Play
 
 ## Created
 
@@ -15,16 +15,21 @@ Groceries
 
 ## About
 
-Groceries
+Word Play
+
+Create a form where users may enter a sentence.  
+Turn that sentence into an array using the split method.  
+Then, loop through this array to build a new array out of every word in the sentence that is 3 or more characters in length.  
+Finally, reverse the order of the new array, join it back together into a string, and display it to the user.  
 
 ## Technology Used
 
-HTML, CSS, Javascript, jQuery, arrays
+HTML, CSS, Javascript, jQuery, arrays, loops
 
 ## Installation
 Clone from:
-https://github.com/Xamdes/groceries.git
-https://github.com/Jean84646/groceries.git
+https://github.com/Xamdes/word-play.git
+https://github.com/Jean84646/word-play.git
 
 ## License
 
