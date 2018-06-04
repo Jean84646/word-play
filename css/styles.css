@@ -2,27 +2,7 @@ body {
   color: black;
   background-color: lightcyan;
   font-size: 1.2em;
-}
 
-.center-text {
+h1 {
   text-align: center;
-}
-
-.initial-hide {
-  display: none;
-}
-
-.format-center-left  {
-  display: inline-block;
-  width: 250px;
-  padding: 6px;
-  text-align: left;
-}
-
-.btn-color-red {
-  background-color: lightgreen;
-}
-
-.formmating {
-  margin: 6px;
 }
