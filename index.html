@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Groceries</title>
+  </head>
+  <body class="container-fluid center-text">
+    <h1 class="jumbotron">Grocery Store</h1>
+    <div class="panel panel-info">
+      <button id="btn-submit" class="btn btn-color-red">Submit List</button>
+      <br>
+      <button id="btn-add" class="btn btn-color-red">Add to List</button>
+    </div>
+    <div id="submit-form" class="format-center-left">
+      <form class="panel panel-info format-center-left" action="index.html" method="post">
+        <label for="input">Item: </label>
+        <input id="input" type="text">
+      </form>
+      <br>
+      <div id="unsorted-list"class="panel panel-info format-center-left">
+        <h5>Grocery List</h5>
+        <ul id="grocery-list"></ul>
+      </div>
+    </div>
+    <br>
+    <div id="sorted-list"class="initial-hide panel panel-info format-center-left">
+      <h5>Grocery List</h5>
+      <ul id="list"></ul>
+    </div>
+  </body>
+</html>
